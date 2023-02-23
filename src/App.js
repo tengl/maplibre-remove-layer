@@ -18,7 +18,7 @@ function App() {
       </button>
       <div className="App-Maplibre">
         {showMap && (
-          <Maplibre id="map" onLoad={setMap}>
+          <Maplibre id="map" setMap={setMap}>
             {showLayer && <MaplibreLayer map={map}></MaplibreLayer>}
           </Maplibre>
         )}

@@ -51,9 +51,10 @@ export function MaplibreLayer({ map }) {
       },
     });
     return () => {
-      //if (map?.style) { // This avoids the crash.
-        map?.removeLayer("route");
-        map?.removeSource("route");
+      // Checking map.style is one (ugly) way to avoid the crash.
+      //if (map?.style) {
+      map?.removeLayer("route");
+      map?.removeSource("route");
       //}
     };
   }, [map]);
