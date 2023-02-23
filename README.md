@@ -9,4 +9,5 @@ Steps to reproduce.
 
 In step 2. the app crashes instead.
 
-Checking `if (map?.style)` before removing layer and source avoids the problem.
+Checking `if (map?.style)` before removing layer and source is one (ugly) way to avoid the problem.
+Setting a timeout for the call to `map.remove` is a bit better way, but still a work around.

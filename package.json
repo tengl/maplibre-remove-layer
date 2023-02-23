@@ -1,5 +1,5 @@
 {
-  "name": "maplibre-y-not-defined",
+  "name": "maplibre-remove-layer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
