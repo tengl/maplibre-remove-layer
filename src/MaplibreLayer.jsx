@@ -51,8 +51,10 @@ export function MaplibreLayer({ map }) {
       },
     });
     return () => {
-      map?.removeLayer("route");
-      map?.removeSource("route");
+      //if (map?.style) { // This avoids the crash.
+        map?.removeLayer("route");
+        map?.removeSource("route");
+      //}
     };
   }, [map]);
 
