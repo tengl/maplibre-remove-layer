@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.App-button {
+  width: 100px;
+  height: 50px;
+}
+.App-Maplibre {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
