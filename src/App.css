@@ -6,8 +6,19 @@
   width: 100px;
   height: 50px;
 }
+
+.App-content {
+  display: flex;
+}
+
 .App-Maplibre {
+  flex: 1;
   position: relative;
   width: 500px;
   height: 500px;
+}
+
+.App-description {
+  flex: 1;
+  text-align: left;
 }
